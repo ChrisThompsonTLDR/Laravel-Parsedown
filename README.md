@@ -11,21 +11,13 @@ $ composer require faustbrian/laravel-parsedown
 Add the service provider to `config/app.php` in the `providers` array.
 
 ``` php
-'providers' => [
-    // ... Illuminate Providers
-    // ... App Providers
-    BrianFaust\Parsedown\ServiceProvider::class
-];
+BrianFaust\Parsedown\ParsedownServiceProvider::class
 ```
 
 If you want you can use the [facade](http://laravel.com/docs/facades). Add the reference in `config/app.php` to your aliases array.
 
 ``` php
-'aliases' => [
-    // ... Illuminate Facades
-    'Markdown' => BrianFaust\Parsedown\Facades\Parsedown::class
-];
-```
+    'Markdown' => BrianFaust\Parsedown\Facades\Parsedown```
 
 ## Usage
 
