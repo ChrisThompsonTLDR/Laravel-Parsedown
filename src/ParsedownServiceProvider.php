@@ -17,7 +17,7 @@ use Parsedown;
 /**
  * Class ServiceProvider.
  */
-class ServiceProvider extends IlluminateProvider
+class ParsedownServiceProvider extends IlluminateProvider
 {
     /**
      * Register the application services.
