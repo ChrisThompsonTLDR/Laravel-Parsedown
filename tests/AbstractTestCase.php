@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Tests\Parsedown;
 
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
 use BrianFaust\Parsedown\ServiceProvider;
+use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {
