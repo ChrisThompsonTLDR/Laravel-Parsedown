@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Parsedown.
  *
@@ -14,31 +11,20 @@ declare(strict_types=1);
 
 namespace BrianFaust\Parsedown;
 
-use Illuminate\Support\ServiceProvider as IlluminateProvider;
-use Parsedown;
+use Illuminate\Support\ServiceProvider;
 
 /**
  * Class ServiceProvider.
  */
-class ParsedownServiceProvider extends IlluminateProvider
+class ParsedownServiceProvider extends ServiceProvider
 {
     /**
      * Register the application services.
      */
-    public function register(): void
+    public function register()
     {
         $this->app->singleton('parsedown', function ($app) {
-            return new Parsedown();
+            return new \Parsedown();
         });
-    }
-
-    /**
-     * Get the services provided by the provider.
-     *
-     * @return array
-     */
-    public function provides(): array
-    {
-        return ['parsedown'];
     }
 }
