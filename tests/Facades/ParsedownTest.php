@@ -11,10 +11,10 @@
 
 namespace BrianFaust\Tests\Parsedown\Facades;
 
-use BrianFaust\Parsedown\Facades\Parsedown as Markdown;
-use BrianFaust\Tests\Parsedown\AbstractTestCase;
-use GrahamCampbell\TestBenchCore\FacadeTrait;
 use Parsedown;
+use GrahamCampbell\TestBenchCore\FacadeTrait;
+use BrianFaust\Tests\Parsedown\AbstractTestCase;
+use BrianFaust\Parsedown\Facades\Parsedown as Markdown;
 
 class ParsedownTest extends AbstractTestCase
 {
