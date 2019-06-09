@@ -46,10 +46,7 @@
         "laravel": {
             "providers": [
                 "Artisanry\\Parsedown\\ParsedownServiceProvider"
-            ],
-            "aliases": {
-                "Parsedown": "Artisanry\\Parsedown\\Facades\\Parsedown"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
