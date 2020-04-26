@@ -1,6 +1,6 @@
 {
     "name": "artisanry/parsedown",
-    "description": "Parsedown Wrapper for Laravel 5",
+    "description": "Parsedown Wrapper for Laravel",
     "keywords": [
         "laravel",
         "framework",
@@ -15,7 +15,7 @@
     }],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^5.8|^6.0",
+        "illuminate/support": "^5.8|^6.0|^7.0",
         "erusev/parsedown": "^1.6"
     },
     "require-dev": {
